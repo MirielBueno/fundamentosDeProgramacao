@@ -1,7 +1,7 @@
 # 💻 Exercícios de Programação – Engenharia de Software
 
 Repositório dedicado aos meus estudos e práticas das disciplinas de **Lógica de Programação** e **Algoritmos** da faculdade de **Engenharia de Software**.  
-Aqui registro minha evolução com **linguagem C**, **Python** e outras linguagens que vou aprendendo ao longo do curso. 🚀
+Aqui registro minha evolução com **linguagem C** e outras linguagens que vou aprendendo ao longo do curso. 🚀
 
 ---
 
