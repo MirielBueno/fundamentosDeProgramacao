@@ -7,28 +7,16 @@ transforme e mostre na tela a temperatura em graus Celsius (ºC). C=5*(F32)/9}
 
 int main(void){
 
+    float f, c;
+
+    printf("Digite a temperatura em Fahrenheit: ");
+    scanf("%i", &f);
+
+    c = (f-32)/1.8;
+
+    printf("Temperatura em Celcius: %.2f", c);
+
         
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

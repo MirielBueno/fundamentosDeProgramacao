@@ -9,17 +9,3 @@ int main(void){
     printf(" Miriel Bueno de Brum \n Telefone: (47)997896183 \n Email: mirielbueno@gmail.com \n Idade: 26 anos \n Cidade: Joinville - SC");
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
