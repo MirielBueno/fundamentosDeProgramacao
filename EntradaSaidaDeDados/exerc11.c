@@ -8,7 +8,15 @@ Imposto de Renda.*/
 
 int main(void){
 
-        
+    int dias;
+    float salario;
+      
+    printf("Digite os dias trabalhados: ");
+    scanf("%i", &dias);
+
+    salario= (dias*25)*.92;
+
+    printf("Valor a ser pago: %.2f", salario);
 
     return 0;
 }
