@@ -9,7 +9,16 @@ quantidade de tinta por lata é 3,6 litros.
 
 int main(void){
 
-        
+    float a, c, qdd;
+    
+    printf("Digite a altura da Parede:");
+    scanf("%f", &a);
+    printf("Digite c comprimento da Parede:");
+    scanf("%f", &c);
+
+    qdd = a*c;
+
+    printf("Necessita de %.2f litros de tinta", qdd*3,6);
 
     return 0;
 }
