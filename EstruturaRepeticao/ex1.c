@@ -1,5 +1,5 @@
-/*1) Faça um programa que peça dois números e imprima o maior deles.
-R.:*/
+/*1. Faça um programa que peça dois números inteiros e gere os números inteiros que
+estão no intervalo entre eles.*/
 
 #include <stdio.h>
 

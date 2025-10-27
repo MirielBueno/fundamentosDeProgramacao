@@ -1,5 +1,6 @@
-/*3) Faça um programa que peça um número e imprima se o número é par ou ímpar.
-R.:*/
+/*3. Faça um programa que leia dez números inteiros e calcule a diferença entre o
+maior e o menor número do conjunto.
+*/
 
 #include <stdio.h>
 

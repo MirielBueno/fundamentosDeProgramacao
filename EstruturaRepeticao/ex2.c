@@ -1,6 +1,5 @@
-/*2) Faça um programa que peça um valor e mostre na tela se o valor é positivo ou
-negativo.
-R.:*/
+/*2. Faça um programa que peça dois números inteiros e gere os números pares que
+estão no intervalo entre eles.*/
 
 #include <stdio.h>
 

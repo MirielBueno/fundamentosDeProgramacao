@@ -1,5 +1,5 @@
-/*6) Faça um programa que verifique se a letra digitada for: F ou M e imprima uma
-mensagem: masculino, feminino ou sexo inválido.*/
+/*6. Faça um programa que calcule o valor total investido e o custo médio por CD. O
+usuário deverá informar a quantidade de CDs e o valor para em cada um.*/
 #include <stdio.h>
  
 int main(void){
