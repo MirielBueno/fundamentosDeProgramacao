@@ -5,20 +5,21 @@ estão no intervalo entre eles.*/
 
 int main(void){
     
-    int a, b;
+    int a, b, i;
 
     printf("Type the First number: ");
     scanf("%i", &a);
     printf("Type the Second number: ");
     scanf("%i", &b);
 
-    if(a>b){
-        printf("%i", a);
-    }
-    else if(a<b){
-        printf("%i", b);
+    if(a<b){
+        for(i= a+1; i < b; i++){
+            printf("%d", i);
+        }
     }else{
-        printf("Equals.");
+        for(i = b+1; i < a; i++){
+            printf("%d", i);
+        }
     }
     
     return 0;
