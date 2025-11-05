@@ -4,20 +4,26 @@ estão no intervalo entre eles.*/
 #include <stdio.h>
 
 int main(void){
+    
+    int a, b, i;
 
-    int a;
-
-    printf("Type a number: ");
+    printf("Type the First number: ");
     scanf("%i", &a);
-  
-    if(a>0){
-        printf("Positive");
-    }
-    else if(a<0){
-        printf("Negative");
-    }
-    else{
-        printf("Zero.");
+    printf("Type the Second number: ");
+    scanf("%i", &b);
+
+    if(a<b){
+        for(i = a+1; i<=b-1; i++){
+            if(i % 2==0){
+                printf("%d", i);
+            }      
+        }
+    }else{
+        for(i = a-1; i>=b+1; i--){
+            if(i % 2==0){
+                printf("%d", i);
+            }
+        }
     }
     return 0;
-}
+}   
