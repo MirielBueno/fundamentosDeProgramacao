@@ -7,36 +7,20 @@ mantidas essas taxas de crescimento.
 */
 
 #include <stdio.h>
+#include <stdlib.h>
  
 int main(void){
 
-    int a, b, c;
+    float a=80000, b=200000;
+    int anos=0;
 
-    printf("Type the first number: ")/
-    scanf("%i", &a);
-    printf("Type the second number: ")/
-    scanf("%i", &b);
-    printf("Type the thirdy number: ")/
-    scanf("%i", &c);
-
-    int x;
-
-    if(a>b){
-        x=a;
-        a=b;
-        b=x;
+    while(a<=b){
+        a*=1.03;
+        b*=1.015;
+        anos++;
     }
-    if(b>c){
-        x=b;
-        b=c;
-        c=x;
-    }
-    if(a>b){
-        x=a;
-        a=b;
-        b=x;
-    }
-    printf("%i, %i, %i", a, b, c);
+    printf("%i anos", anos);
+    
 
     return 0;
 }

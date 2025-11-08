@@ -4,18 +4,24 @@ usuário deverá informar a quantidade de CDs e o valor para em cada um.*/
  
 int main(void){
 
-    char sex;
+    int qdtCd, i;
+    float media, valor, total=0;
 
-    printf("Type your sex (M/F): ");
-    scanf("%c", &sex);
+    printf("Digite a quantidade de CD's: ");
+    scanf("%i", &qdtCd);
 
-    if(sex=='m'||sex=='M'){
-        printf("Male");
+    for(i = 1; i<=qdtCd; i++){
+        printf("Digite o valor do CD %i: ", i);
+        scanf("%f", &valor);
+       
+        total += valor;
+        media = total/qdtCd;
+
     }
-    else if(sex=='f'||sex=='F'){
-        printf("Female");
-    }else{
-        printf("Invalid Character.");
-    }
+
+    printf("Valor total dos CD's: %.2f\n", total);
+    printf("Valor medio dos CD's: %.2f\n", media);
+    
     return 0;
+
 }

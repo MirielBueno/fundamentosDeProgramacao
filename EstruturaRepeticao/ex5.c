@@ -6,15 +6,25 @@ não podem ter mais de 40 alunos.
  
 int main(void){
 
-    float n;
+    int turmas, alunos, soma=0, media;
 
-    printf("Type a real number: ");
-    scanf("%f", &n);
+    printf("digite a quantidade de turmas: ");
+    scanf("%i", &turmas);
 
-    if(n==(int)n){
-        printf("It's an integer");
-    }else{
-        printf("Isn't an Integer");
+    for(int i = 1; i <= turmas; i++){
+        printf("digite a qdt de alunos na %i sala: ", i);
+        scanf("%i", &alunos);
+        
+        if(alunos > 0 && alunos < 40){
+        soma = soma + alunos;}
+        else{
+            printf("ERROR!\n");
+            i--;
+        }
     }
+    media=soma/turmas;
+
+    printf("media de alunos nas %i turmas eh: %i", turmas, media);
+
     return 0;
 }

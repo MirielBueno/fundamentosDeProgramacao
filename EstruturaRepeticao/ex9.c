@@ -5,6 +5,18 @@ operação*/
  
 int main(void){
 
+    int soma;
+    char opcao;
+
+    do{
+        for(int i=100; i<=200; i+=2){
+            soma+=i;
+        }
+        printf("%i\n", soma);
+        printf("Repetir? (s/n): ");
+        scanf("%c", &opcao);
+
+    }while(opcao == 's');
     
 
     return 0;

@@ -5,27 +5,20 @@ deve informar de qual número deseja ver a tabuada.
  
 int main(void){
 
-    char letter;
+    int n, i;
+    char opcao;
 
-    printf("Type a letter: ");
-    scanf("%c", &letter);
+    do{
+        printf("Digite um numero inteiro: ");
+        scanf("%i", &n);
 
-    if(letter=='a'||letter=='A'){
-        printf("The letter is a vowel.");
-    }
-    else if(letter=='e'||letter=='E'){
-        printf("The letter is a vowel.");
-    }
-    else if(letter=='i'||letter=='I'){
-        printf("The letter is a vowel.");
-    }
-    else if(letter=='o'||letter=='O'){
-        printf("The letter is a vowel.");
-    }
-    else if(letter=='u'||letter=='U'){
-        printf("The letter is a vowel.");
-    }else{
-        printf("The letter ir a consonant");
-    }                       
+        for(i = 0; i<=10; i++){
+            printf("%i X %i = %i\n", n, i, i*n);            
+        }
+        printf("Repetir? (Y/N): ");
+        scanf("%c", &opcao);
+
+    }while(opcao == 'Y' || opcao == 'y');
+
     return 0;
 }
